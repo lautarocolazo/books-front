@@ -1,38 +1,39 @@
-# create-svelte
+# Overview
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+I learned TypeScript by the first time ever. I tried to implement in something similar to a full-stack experience so I used it with NodeJs, Express, and Svelte.
 
-## Creating a project
+The application that I built is a REST API in the backend with a front-end to add books and organize them by genres, and display some information like author, pages, etc.
 
-If you're seeing this, you've probably already done this step. Congrats!
+The main purpose of writing this software was to be able to organize the books that I read.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+[Software Demo Video](https://www.loom.com/share/c1e766ca716c47058be2a0d2dcdfd3fd?sid=a54ef459-e15b-4f6a-a28a-add1489827ce)
+[Code Demo Video](https://www.loom.com/share/6323a08e8c8c404cb9a1ecb142615d84?sid=747a5bf1-458d-4070-b843-31fd91f6fbfc)
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+# Development Environment
 
-## Developing
+- Neovim
+- Git
+- Docker and docker-compose
+- PostgreSQL
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+# Development Programming Language & Libraries
 
-```bash
-npm run dev
+- NodeJs
+- Express
+- Prisma ORM
+- TypeScript
+- Svelte & SvelteKit
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+# Useful Websites
 
-## Building
+- [NodeJs Docs](https://nodejs.org/docs/latest/api/)
+- [Express Docs](https://expressjs.com/)
+- [Svelte Docs](https://kit.svelte.dev/docs/introduction)
+- [Docker Docs](https://docs.docker.com/get-started/overview/)
+- [Prisma ORM Docs](https://www.prisma.io/docs/getting-started)
 
-To create a production version of your app:
+# Future Work
 
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- Edit books
+- Filter them
+- Search bar
